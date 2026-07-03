@@ -283,8 +283,8 @@ InstallWine() {
     Info "Installing .desktop:"
     mkdir -p "$XDG_DATA_HOME/applications"
     echo "[Desktop Entry]
-Name=osu!
-Comment=osu! - Rhythm is just a *click* away!
+Name=osu!(stable)
+Comment=osu!(stable) - Rhythm is just a *click* away!
 Type=Application
 Exec=$BINDIR/osu-wine %U
 Icon=$XDG_DATA_HOME/icons/osu-wine.png
